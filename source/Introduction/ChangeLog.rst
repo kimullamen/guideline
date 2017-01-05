@@ -17,6 +17,14 @@
         * 更新内容の詳細は、\ `5.3.0のIssue一覧 <https://github.com/terasolunaorg/guideline/issues?utf8=%E2%9C%93&q=label%3A5.3.0%20is%3Aissue%20is%3Aclosed%20>`_\ を参照されたい。
 
     * -
+      - | :doc:`../ArchitectureInDetail/DataAccessDetail/DataAccessJpa`
+        | :doc:`../ArchitectureInDetail/DataAccessDetail/ExclusionControl`
+      - 記載内容の追記
+
+        * 使用DBがPostgreSQL時、javax.persistence.lock.timeoutのvalueに0を設定しても、
+          NOWAIT句が付かなくなった説明を追加(\ `guideline#2372 <https://github.com/terasolunaorg/guideline/issues/2372>`_\ )
+
+    * -
       - :doc:`../ArchitectureInDetail/WebApplicationDetail/Validation`
       - 記載内容の改善
 
